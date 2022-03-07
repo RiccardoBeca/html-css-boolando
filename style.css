@@ -5,9 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 /*  ROW */
 
 .row{
@@ -63,8 +60,8 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  right: 1.4%;
-  top: 5%;
+  right: 2px;
+  top: 10px;
   line-height: 30px;
 }
 
@@ -77,11 +74,9 @@
   text-align: left;
 }
 
-
 .description p{
   font-size: 0.7rem;
 }
-
 
 .product-name{
   width: 100%;
@@ -89,7 +84,6 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-
 
 .discounted-price{
   font-weight: bold;
@@ -116,6 +110,9 @@
 
 /* HOVERS */
 
+  .img-swap{
+    position: relative;
+  }
 .img-swap .swap{
   display: none;
   position: absolute;
