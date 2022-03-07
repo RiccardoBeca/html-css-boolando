@@ -7,13 +7,6 @@
 
 
 
-/* .clearfix::after{
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-
 
 /*  ROW */
 
@@ -70,7 +63,7 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  right: 1.5%;
+  right: 1.4%;
   top: 5%;
   line-height: 30px;
 }
@@ -78,14 +71,17 @@
 /* PRODUCT DESCRIPTION */
 
 .description{
+  margin-top: 5px;
   width: 100%;
   position: absolute;
   text-align: left;
 }
 
+
 .description p{
   font-size: 0.7rem;
 }
+
 
 .product-name{
   width: 100%;
@@ -102,5 +98,33 @@
 
 .old-price{
   text-decoration: line-through;
+}
+
+/* special sustainable */
+
+#sustainable-box{
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 3px;
+  font-size: 13px;
+  color: white;
+  background-color: rgb(0, 135, 90);
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+}
+
+/* HOVERS */
+
+.img-swap .swap{
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.img-swap:hover .swap{
+  display: inline;
 }
 
